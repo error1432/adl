@@ -60,5 +60,15 @@ text = tokenizer.sequences_to_texts([X_test_pad[index]])[0]
 label = y_test.values[index]
 prediction = predictions[index][0]
 print("Text:", text)
+
+
+
+: LSTM stands for long short-term memory networks, used in the field of 
+Deep Learning. It is a variety of recurrent neural networks (RNNs) that are capable of learning 
+long-term dependencies, especially in sequence prediction problems. 
+LSTM has feedback connections, i.e., it is capable of processing the entire sequence of data, 
+apart from single data points such as images. 
+Sentiment Analysis is an NLP application that identifies a text corpus’s emotional or sentimental tone or opinion. Usually, emotions or attitudes towards a topic can be positive, negative, or neutral. Sentiment analysis is a potent tool with varied applications across industries. It is helpful for social media and brand monitoring, customer support and feedback analysis, market research, etc. 
+
 print("Actual label:", label)
 print("Predicted label:", round(prediction))
